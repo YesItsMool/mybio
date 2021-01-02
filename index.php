@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellcome To MyPage</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="navigation">
+            <ul>
+
+                <h1 style="color: brown;">Wellcome_To_My(Bio)</h1>
+                <li class="list"><a href="/html/index.html">Home</a></li>
+                <li class="list"><a href="/html/studentlogin.html">Student</a></li>
+                <li class="list"><a href="#">College</a></li>
+                <li class="list"><a href="#">Course</a></li>
+                <li class="list"><a href="#">Computer science notification</a></li>
+                <li class="list"> <a href="#">Art update</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+<section>
+
+    <h1 style="text-align: center;background-color: rgba(212, 244, 245, 0.856);">Hello Everyone!!!!<br></h1>
+    <h2 style="text-align: left;">Wellcome to My Html Page. Here i have given bio of mine,hope you like it<br></h2>
+    <h3 style="text-align: center;">....................Shall we(*__*)..........................<br></h3>
+    <h4 style="text-align: right;"></h4>
+    <img  id="myimg" src="/image/pic.jpeg" alt="my first Pic" align=left>
+    <p
+        style="font-family: 'Courier New', Courier, monospace;text-align: center;background-color: rgba(241, 238, 195, 0.609);color: brown;">
+        So i am 21 year old.i am collage student i am from <a href="https://cmdpgcollege.ac.in/">C.M.D. P.G. College
+        </a> i am computer science student currently i'm in final year of <i>B.C.A </i>Bechlor Of Computer
+        Application.My hobby is to Play Chess i like movies also i want to become Proffessor as well as data scientist
+        <br>
+    </p>
+    <h1 style="text-align: justify;">Here are Some thing i like:-</h1>
+
+    <div id="likes">
+
+        <a href="https://www.royalenfield.com/" alt="pic of bullet">
+            <img src="image/bullet.jpg" width="200" height="100" align="right">
+            ></a>
+        <a href="https://www.geeksforgeeks.org/" alt="pic of gfg">
+            <img src="image/gfglogo.png" width="200" height="100" align="right">
+            ></a>
+        <a href="https://www.chess.com" alt="pic of Chess">
+            <img src="image/chess.jpeg" width="200" height="100" align="right">
+            ></a>
+
+        <a href="https://www.google.com" alt="pic of google">
+            <img src="image/google.png" width="200" height="100" align="right">
+            ></a>
+
+    </div>
+
+    <p style="font-family: fantasy;"> i have may more things to show but that would be waste of coading time</p>
+    <h1 style="font-family: sans-serif;">Lets talk about My Course Detail:-
+        <small>We have 24 subject in our graduation</small>
+
+    </h1>
+
+</section>
+    <div>
+        <a href="./html/page1.html">page 1</a>
+        <a href="./html/page2.html">page 2</a>
+        <a href="./html/page3.html">page 3</a>
+        <a href="./html/page4.html">page 4</a>
+    </div>
+
+    <p style="color: rgba(17, 201, 247, 0.952); background-color: rgb(214, 194, 166);">
+        We Talk about them latter when we learn table,form,order-list,etc
+    </p>
+
+</body>
+
+</html>

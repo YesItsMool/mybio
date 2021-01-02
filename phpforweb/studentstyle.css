@@ -1,0 +1,97 @@
+#navigation{
+    margin:-5px;
+
+}
+nav{
+    padding: 10px;
+    margin-top: 2px;
+}
+#navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    background-color: black;
+    color: whitesmoke;
+    padding:0px;
+    /* border-radius: 50px; */
+}
+.list:hover{
+    background-color :red;
+    font-size: 1em;
+       
+}
+ul li{
+    margin: 3px;
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+#bgimg{
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+
+}
+
+
+.container{
+
+    /* display: flex; */
+    /*flex-flow: column;
+    align-self:flex-start;
+    position: absolute;
+    justify-content: center;
+    
+    align-content: center;
+    align-items:flex-start;
+    margin: auto;
+    padding: auto; */
+    width: 100%;
+    height: 50vh;
+   
+}
+div h1{
+    background-color: inherit;
+    text-align: center;
+    font-family:cursive;
+   
+    font-size: 4em;
+}
+.textbox{
+  
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 15%;
+}
+.container div{
+    text-align: center;
+}
+input{
+    border-style: groove;
+    background-color: rgb(250, 229, 199);
+    text-align: center;
+    border-width: 5px;
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+#button{
+    text-align: center;
+    border: hidden;
+    width: 30vw;
+    height: 5vh;
+    position: absolute;
+    transform: translateX(32vw);
+  
+}
